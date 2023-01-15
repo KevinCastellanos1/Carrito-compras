@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Hi there :raised_hand_with_fingers_splayed:</h1>
-<h2>Carrito Compras</h2>
+<h2>Carrito de Compras</h2>
 
 
 <h3 align="center">Tabla de contenido</h3> 
