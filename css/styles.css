@@ -1,0 +1,199 @@
+html{
+    font-family: sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+header{
+     padding-top: 20px;
+}
+
+#logo{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+   
+    
+ 
+ }
+
+.contenedor{
+    
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.submenu{
+    position: relative;
+}
+
+.submenu img{
+    width: 50px;
+    height: 50px;
+       
+}
+
+.submenu #carrito-compras{
+    display: none;
+}
+
+.submenu:hover #carrito-compras{
+    display:block;
+    position: absolute;
+    right: 0;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#lista-carrito-compras{
+    background-color: white;
+    border: 5px solid black;
+    text-align: center;
+}
+
+#lista-carrito-compras th{
+    background: black;
+    color: white;
+    padding: 0 40px;  
+    
+}
+
+.borrar-producto{
+    background: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;   
+    
+}
+
+#vaciar-carrito{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    
+}
+
+h1{
+    text-align: center;
+    display: block;
+}
+
+
+
+#buscador-productos{
+    background-image: url("/img/buscador2.jpg");
+    height: 600px;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.contenedor-buscador form{
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#buscador{
+    width: 95%;
+    position: relative;
+}
+
+#submit-buscador{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    
+    color: transparent;
+    width: 50px;
+    background-image: url("/img/lupa.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.contenedor-barra{
+    background: black; 
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+    align-items: flex-end;
+    
+}
+
+.contenedor-barra p{
+    
+    display: flex;
+    padding: 15px;
+    color: white;
+    
+}
+
+.lista-productos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.tarjeta{
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    width: 30%;
+    padding: 20px 0;
+}
+
+.tarjeta img{
+    border-radius: 30%;
+}
+
+.precio{
+    display: flex;    
+    justify-content: space-around;
+    
+}
+
+
+.sin-tachar{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;    
+}
+
+.tarjeta a{
+    width: 100%;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a{
+
+    display: block;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    
+}

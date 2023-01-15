@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="contenedor">            
+            <div class="encabezado-logo">
+                <img  src="img/logo.png" id="logo" alt="logo">
+            </div>
+            <div class="encabezado-carrito">
+                <ul>
+                    <li class="submenu">
+                        <img src="img/carrito.png" id="img-carrito-compras"alt="carrito-compras">
+                        <div id="carrito-compras">
+                            <table id="lista-carrito-compras">
+                                <thead>
+                                    <tr class="carrito-compras-hover">
+                                        <th>Imagen</th>
+                                        <th>Producto</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+
+                            <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </header>
+
+    <main>
+
+    <section id="buscador-productos">
+
+        <div class="contenedor ">
+            <div class="buscador">
+                <h3>Encuentra lo que te mereces</h3>
+                <div class="contenedor-buscador">
+                    <p>Todas las prendas a $ 50.000</p>
+                    <form action="#" id="busqueda" class="formulario" method="post">
+                        <input type="text" placeholder="Qué te gustaría estrenar" id="buscador">
+                        <input type="submit" id="submit-buscador">
+                    </form>
+                </div>
+            </div>            
+        </div>
+
+        
+        <div class="contenedor-barra">
+
+            <div class="">
+                <p>1.000 prendas en promoción <br>
+                Descubre los diseños mas recientes</p>
+            </div>
+            <div class="">
+                <p>Los Mejores Estilos<br>
+                Luce a la moda de la mejor manera</p>
+            </div>
+            <div class="">
+                <p>Calidad y Diseño <br>
+                Vistete como te mereces</p>
+            </div>
+        </div>      
+       
+    </section>
+
+    <section id="productos">
+        <h1>Productos</h1>
+        <div class="contenedor ">
+            
+            <div class="lista-productos">
+                <div class="tarjeta">
+                    <img src="img/blusa-blanca.png" alt="blusa-blanca">
+                    <div class="informacion-tarjeta">
+                        <h3>Blusa Blanca Mujer</h3>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$ 80.000<span class="sin-tachar">$ 50.000</span></p>
+                        <a href="#" class="agregar-carrito" data-id = "1">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/blusa-negra.png" alt="blusa-blanca">
+                    <div class="informacion-tarjeta">
+                        <h3>Blusa Negra Mujer</h3>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$ 130.000<span class="sin-tachar">$ 50.000</span></p>
+                        <a href="#" class="agregar-carrito" data-id = "2">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/blusa.png" alt="blusa-blanca">
+                    <div class="informacion-tarjeta">
+                        <h3>Blusa</h3>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$ 105.000<span class="sin-tachar">$ 50.000</span></p>
+                        <a href="#" class="agregar-carrito" data-id = "3">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/chaqueta-invierno.png" alt="blusa-blanca">
+                    <div class="informacion-tarjeta">
+                        <h3>Chaqueta Invierno</h3>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$ 275.000<span class="sin-tachar">$ 50.000</span></p>
+                        <a href="#" class="agregar-carrito" data-id = "4">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/sueter-mujer.png" alt="blusa-blanca">
+                    <div class="informacion-tarjeta">
+                        <h3>Sueter Mujer</h3>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$ 160.000<span class="sin-tachar">$ 50.000</span></p>
+                        <a href="#" class="agregar-carrito" data-id = "5">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/sueter-rayas.png" alt="blusa-blanca">
+                    <div class="informacion-tarjeta">
+                        <h3>Sueter Rayas</h3>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$ 280.000<span class="sin-tachar">$ 50.000</span></p>
+                        <a href="#" class="agregar-carrito" data-id = "6">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/vestido-mujer.png" alt="blusa-blanca">
+                    <div class="informacion-tarjeta">
+                        <h3>Vestido Mujer</h3>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$ 360.000<span class="sin-tachar">$ 50.000</span></p>
+                        <a href="#" class="agregar-carrito" data-id = "7">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/blusa2.png" alt="blusa-blanca">
+                    <div class="informacion-tarjeta">
+                        <h3>Blusa</h3>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$ 99.000<span class="sin-tachar">$ 50.000</span></p>
+                        <a href="#" class="agregar-carrito" data-id = "7">AGREGAR AL CARRITO</a>
+                    </div>
+                </div>
+
+            </div>           
+        </div>
+    </section>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="contenedor">
+            <nav>
+                <a class="enlace" href="#">Te ayudamos</a>
+                <a class="enlace" href="#">Se parte de Kevin's fashion</a>
+                <a class="enlace" href="#">Unete a nustros programas</a>
+                <a class="enlace" href="#">Nuestros aliados</a>
+                
+            </nav>
+        </div>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
